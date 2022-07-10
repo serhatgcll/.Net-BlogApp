@@ -8,7 +8,7 @@ using BlogApp.Core.Entity;
 
 namespace BlogApp.Core.DataAccess.NHibernate
 {
-    class NHibernateEntityRepositortyBase<TEntity> :IEntityRepository<TEntity>where TEntity:class ,IEntity,new()
+   public class NHibernateEntityRepositortyBase<TEntity> :IEntityRepository<TEntity>where TEntity:class ,IEntity,new()
     {
         private NHibernateHelper _nHibernateHelper;
 
