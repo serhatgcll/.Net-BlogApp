@@ -18,7 +18,7 @@ namespace BlogApp.DataAccess.Concrete.EntityFramework
             Property(x => x.CategoryId).HasColumnName("CategoryId");
             Property(x => x.CategoryName).HasColumnName("CategoryName");
             Property(x => x.CategoryDescription).HasColumnName("CategoryDescription");
-            Property(x => x.Status).HasColumnName("Status");
+            Property(x => x.CategoryStatus).HasColumnName("CategoryStatus");
         }
 
       

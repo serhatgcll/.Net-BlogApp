@@ -14,7 +14,10 @@ namespace BlogApp.DataAccess.Concrete.EntityFramework
         public BlogAppContext()
         {
             Database.SetInitializer<BlogAppContext>(null);
+           
         }
+
+        
         public DbSet<Category> Categories { get; set; }
         public DbSet<Writer>Writers { get; set; }
 
