@@ -8,7 +8,7 @@ using NHibernate.Criterion;
 
 namespace BlogApp.Core.DataAccess.NHibernate
 {
-     abstract class NHibernateHelper:IDisposable
+    public  abstract class NHibernateHelper:IDisposable
    {
        private static ISessionFactory _sessionFactory;
 
